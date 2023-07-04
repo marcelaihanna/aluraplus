@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+:root{
+    --branco-principal: white;
+    --preto-fundo: black;
+    --azul-botao: #167BF7;
+    --fonte-titulo: 'Inter', sans-serif;
+    --fonte-texto: 'Inter';
+
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--preto-fundo);
+    color: var(--branco-principal);
+}
+.inicio_planos{
+  background-image: url(/assets/Background.png);
+  padding: 20px;
+}
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 588px;
+    height: 424px;
+    margin-top: 100px   ;
+    margin-left: 63px;
+}
+.planos_titulo{
+    text-align: center;
+    font-size: 28px;
+    height: 97px;
+    width: 583px;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 30px;
+}
+.planos_botao_azul{
+   width: 500px;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   border-radius: 5px;
+   border: none;
+   margin-top: 40px;
+   background-color: var(--azul-botao);
+   color: var(--branco-principal);
+   font-family: var(--fonte-texto);
+}
+.planos_botao_azul:hover{
+    background-color: #2083fc93;
+    border: solid white;
+    border-width: 1px;
+}
+.planos_botao_incolor{
+    width: 500px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    color: var(--branco-principal);
+    border: solid white;
+    border-width: 1px;
+    font-family: var(-fonte--texto);
+ }
+ .planos_botao_incolor:hover{
+    background-color: #2083fc93;
+}
+.planos_texto_botao{
+    color: var(--branco-principal);
+    font-family: var(--fonte-texto);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+.plataformas{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    gap: 70px;
+}
+.plataformas_imagem{
+    width: 30%;
+}
+.plataformas_titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+}
+.plataformas_texto{
+    font-family: var(--fonte-texto);
+}
+.idiomas{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    gap: 65px;
+}
+.idiomas_imagem{
+    width: 30%;
+}
+.idiomas_texto{
+    font-family: var(--fonte-texto);
+}
+.idiomas_botao{
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: var(--azul-botao);
+    color: var(--branco-principal);
+    font-family: var(--fonte-texto);
+}
+.idiomas_botao:hover{
+    background-color: #2083fc93;
+}
+.download{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    gap: 70px;
+}
+.download_imagem{
+    width: 30%
+}
+.download_titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+}
+.download_texto{
+    font-family: var(--fonte-texto);
+}
+.dispositivos_titulo{
+    margin-top: 220px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.dispositivos_div{
+    display: flex;
+    gap: 8px;
+    margin-left: 190px;
+}
+.dispositivos_tv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+ 
+}
+.dispositivos_pc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+}
+.dispositivos_celular{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+}
+footer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+footer img{
+    margin-bottom: 30px;
+}
+.footer_href a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.footer_href a:hover{
+    background-color: #167BF7;
+}
+.footer_href{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--fonte-texto);
+    margin-bottom: 18px;
+}
